@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="player" type="playerType"/>
+    <xs:complexType name="standard-statsType">
+        <xs:sequence>
+            <xs:element type="xs:nonNegativeInteger" name="seasons" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="squad" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="comp_level" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="games" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="games_starts" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="minutes" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="goals" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="assists" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="cards_yellow" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="cards_red" default="0" />
+            <xs:element type="xs:decimal" name="goals_per90" default="0" />
+            <xs:element type="xs:decimal" name="assists_per90" default="0" />
+            <xs:element type="xs:decimal" name="goals_assists_per90" default="0" />
+            <xs:element type="xs:decimal" name="goals_pens_per90" default="0" />
+            <xs:element type="xs:decimal" name="goals_assists_pens_per90" default="0" />
+            <xs:element type="xs:decimal" name="xa" default="0" />
+            <xs:element type="xs:decimal" name="xg_per90" default="0" />
+            <xs:element type="xs:decimal" name="xa_per90" default="0" />
+            <xs:element type="xs:decimal" name="xg_xa_per90" default="0" />
+            <xs:element type="xs:decimal" name="npxg_per90" default="0" />
+            <xs:element type="xs:decimal" name="npxg_xa_per90" default="0" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="shooting-statsType">
+        <xs:sequence>
+<!--            <xs:element type="xs:nonNegativeInteger" name="goals" default="0" />-->
+            <xs:element type="xs:nonNegativeInteger" name="pens_made" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="pens_att" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="shots_total" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="shots_on_target" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="shots_free_kicks" default="0" />
+            <xs:element type="xs:decimal" name="shots_on_target_pct" default="0" />
+            <xs:element type="xs:decimal" name="shots_total_per90" default="0" />
+            <xs:element type="xs:decimal" name="shots_on_target_per90" default="0" />
+            <xs:element type="xs:decimal" name="goals_per_shot" default="0" />
+            <xs:element type="xs:decimal" name="goals_per_shot_on_target" default="0" />
+            <xs:element type="xs:decimal" name="xg" default="0" />
+            <xs:element type="xs:decimal" name="npxg" default="0" />
+            <xs:element type="xs:decimal" name="npxg_per_shot" default="0" />
+            <xs:element type="xs:decimal" name="xg_net" default="0" />
+            <xs:element type="xs:decimal" name="npxg_net" default="0" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="passing-statsType">
+        <xs:sequence>
+            <xs:element type="xs:decimal" name="xa_net" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="assisted_shots" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="passes_completed" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="passes" default="0" />
+            <xs:element type="xs:decimal" name="passes_pct" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="passes_completed_short" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="passes_short" default="0" />
+            <xs:element type="xs:decimal" name="passes_pct_short" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="passes_completed_medium" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="passes_medium" default="0" />
+            <xs:element type="xs:decimal" name="passes_pct_medium" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="passes_completed_long" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="passes_long" default="0" />
+            <xs:element type="xs:decimal" name="passes_pct_long" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="passes_left_foot" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="passes_right_foot" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="passes_free_kicks" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="through_balls" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="corner_kicks" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="throw_ins" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="passes_into_final_third" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="passes_into_penalty_area" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="crosses_into_penalty_area" default="0" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="miscellaneous-statsType">
+        <xs:sequence>
+<!--            <xs:element type="xs:nonNegativeInteger" name="cards_yellow" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="cards_red" default="0" />-->
+            <xs:element type="xs:nonNegativeInteger" name="cards_yellow_red" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="fouls" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="fouled" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="offsides" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="crosses" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="tackles_won" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="interceptions" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="pens_won" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="pens_conceded" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="own_goals" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="dribbles_completed" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="dribbles" default="0" />
+            <xs:element type="xs:decimal" name="dribbles_completed_pct" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="players_dribbled_past" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="nutmegs" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="dribble_tackles" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="dribbles_vs" default="0" />
+            <xs:element type="xs:decimal" name="dribble_tackles_pct" default="0" />
+            <xs:element type="xs:nonNegativeInteger" name="dribbled_past" default="0" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="statsType">
+        <xs:sequence>
+            <xs:element type="standard-statsType" name="standard-stats" />
+            <xs:element type="shooting-statsType" name="shooting-stats"  />
+            <xs:element type="passing-statsType" name="passing-stats"  />
+            <xs:element type="miscellaneous-statsType" name="miscellaneous-stats" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="playerType">
+        <xs:sequence>
+            <xs:element type="statsType" name="stats"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

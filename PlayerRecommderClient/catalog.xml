@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/E:/Learning%20Material/CN8%20%20-%20Spring2020/NetBeansProjects/PlayerRecommderClient/web/WEB-INF/transfermarkt/done.xsd" uri="src/conf/xml-resources/jaxb/transfermarkt/done.xsd"/>
+    <system systemId="file:/E:/Learning%20Material/CN8%20%20-%20Spring2020/NetBeansProjects/PlayerRecommderClient/web/WEB-INF/fbref/done.xsd" uri="src/conf/xml-resources/jaxb/fbref/done.xsd"/>
+</catalog>

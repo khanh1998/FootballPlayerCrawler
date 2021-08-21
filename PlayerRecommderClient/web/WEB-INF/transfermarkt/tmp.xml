@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<player_infos>
+    <player_info>
+        <id>385</id>
+        <transfermarkt_avartar>https://tmssl.akamaized.net//images/portrait/header/58178-1533114556.jpg?lm=1533114690</transfermarkt_avartar>
+        <fbref_avartar>https://d6rt22vwfyr3i.cloudfront.net/req/201909271/images/headshots/565bf0da_2018.jpg</fbref_avartar>
+        <transfermarkt_url>https://www.transfermarkt.com/xx-xx/profil/spieler/58178</transfermarkt_url>
+        <fbref_url>https://fbref.com/en/players/565bf0da/David-Abraham&#xD;</fbref_url>
+        <club>Eintracht Frankfurt</club>
+        <nation>Argentina U20</nation>
+        <place_of_birth>ChabÃ¡s</place_of_birth>
+        <name>David Abraham</name>
+        <birth_date>1985-12-29</birth_date>
+        <height>1.8799999952316284</height>
+        <contact_expires>2020-12-27</contact_expires>
+        <current_value>
+            <value>1.5</value>
+            <unit>m</unit>
+            <lasted_update>2018-12-30</lasted_update>
+        </current_value>
+    </player_info>
+    <player_info>
+        <id>465</id>
+        <transfermarkt_avartar>https://tmssl.akamaized.net//images/portrait/header/59016-1540568208.jpg?lm=1540568225</transfermarkt_avartar>
+        <fbref_avartar>https://d6rt22vwfyr3i.cloudfront.net/req/201909271/images/headshots/05439de2_2018.jpg</fbref_avartar>
+        <transfermarkt_url>https://www.transfermarkt.com/xx-xx/profil/spieler/59016</transfermarkt_url>
+        <fbref_url>https://fbref.com/en/players/05439de2/David-Alaba&#xD;</fbref_url>
+        <club>Bayern Munich</club>
+        <nation>Austria</nation>
+        <place_of_birth>Wien</place_of_birth>
+        <name>David Alaba</name>
+        <birth_date>1991-12-29</birth_date>
+        <height>1.7999999523162842</height>
+        <contact_expires>2020-12-27</contact_expires>
+        <current_value>
+            <value>65.0</value>
+            <unit>m</unit>
+            <lasted_update>2018-12-30</lasted_update>
+        </current_value>
+    </player_info>
+</player_infos>

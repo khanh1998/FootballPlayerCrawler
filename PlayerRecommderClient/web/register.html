@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Register</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Register</h1>
+        <a href="DispatcherServlet">Home</a>
+        <form method="POST" action="DispatcherServlet">
+            <p>Username</p>
+            <input type="text" maxlength="10" minlength="3" name="username">
+            <p>Password</p>
+            <input type="password" minLength="5" maxLength="45" name="password">
+            <p>Re-type your password</p>
+            <input type="password" minlength="5" maxLength="45" name="repassword">
+            <p>Your name</p>
+            <input type="text" maxlength="100" minlength="3" name="name">
+            <input type="submit" name="action" value="register">
+        </form>
+    </body>
+</html>
